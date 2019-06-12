@@ -1,0 +1,284 @@
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto Slab', serif;
+font-family: 'Droid Serif', sans-serif;
+*/
+* {
+	box-sizing: border-box;
+}
+*:after,
+*:before {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	font-family: 'Roboto Slab', serif;
+}
+h2 {
+	font-family: 'Montserrat', sans-serif;
+}
+h4 {
+	font-family: 'Droid Serif', sans-serif;
+}
+.container {
+	width: 970px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.container:after,
+.container:before {
+	content: "";
+	display: table;
+	clear: both;
+}
+.col33 {
+	width: 33.33%;
+	float: left;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.col50 {
+	width: 50%;
+	float: left;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+/*-----------------Common-------------------*/
+.title {
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 80px;
+}
+.m-title {
+	font-size: 40px;
+	text-transform: uppercase;
+	color: #222222;
+	margin-bottom: 10px;
+}
+.s-title {
+	margin: 0;
+	font-size: 16px;
+	font-family: 'Droid Serif', sans-serif;
+	color: #777777;
+	font-style: italic;
+	font-weight: 400;
+
+}
+
+/*----------------Header-----------------*/
+.Header {
+	background: url("../images/banner.jpg");
+	background-size: cover;
+}
+/*-------------Header Area-----------*/
+.menu-logo {
+	margin-top: 50px;
+}
+.logo {
+	display: inline-block;
+}
+
+.menu {
+	float: right;
+}
+.menu ul {
+	margin: 0;
+}
+.menu ul li {
+	list-style: none;
+	float: left;
+}
+.menu ul li a {
+	display: inline-block;
+	padding: 0 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+	color: #fff;
+}
+
+
+
+/*-----------Banner------------*/
+.banner {
+	text-align: center;
+	padding-top: 170px;
+	padding-bottom: 130px;
+}
+.banner h2 {
+	font-size: 40px;
+	font-family: 'Droid Serif', sans-serif;
+	color: #fff;
+	font-style: italic;
+	font-weight: 400;
+}
+.banner h1 {
+	font-size: 75px;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	color: #fff;
+}
+.btn {
+	text-transform: uppercase;
+	background-color: #fed136;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	color: #fff;
+	padding: 25px 50px;
+	display: inline-block;
+}
+
+
+/*-----------Services--------------*/
+.services .title {
+	
+}
+.service-item {
+	text-align: center;
+}
+.service-item img {
+	width: 80px;
+	height: 80px;
+	padding: 15px;
+	border-radius: 50%;
+	border: 3px solid #fed854;
+}
+.service-item h3 {
+	font-size: 18px;
+	color: #222;
+}
+
+
+/*---------Portfolio------------*/
+.portfolio {
+	background: #f7f7f7;
+}
+.port-item {
+	text-align: center;
+	background: #fff;
+	margin-bottom: 50px;
+}
+.port-item img {
+	display: inline-block;
+	width: 100%;
+}
+.port-item h3 {
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+.port-item h4 {
+	margin: 0;
+	color: #333;
+	font-style: italic;
+	font-weight: 400;
+	padding-bottom: 30px;
+}
+
+
+/*--------------Clients-----------------*/
+.clients ul {
+	display: table;
+	width: 100%;
+}
+.clients ul li {
+	list-style: none;
+	display: table-cell;
+	padding: 15px;
+}
+
+
+/*--------------Team-------------------*/
+.team {
+	background: #f9f9f9;
+	text-align: center;
+}
+
+.team .container .col33 .member .name h4 {
+	font-size: 16px;
+	color: #222222;
+	font-family: 'Montserrat', sans-serif;
+	margin-bottom: 0;
+}
+.team h5 {
+	font-size: 14px;
+	color: #777777;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+	margin-top: 5px;
+}
+.team-img img {
+	display: inline-block;
+	width: 100%;
+	border-radius: 50%;
+}
+/*----------social-------------*/
+.social ul {
+	padding: 0;
+	display: table;
+	margin: auto;
+	text-align: center;
+}
+.social ul li {
+	list-style: none;
+	float: left;
+}
+.social ul li a {
+	width: 40px;
+	height: 40px;
+	font-size: 20px;
+	display: inline-block;
+	border-radius: 50%;
+	margin-left: 5px;
+	margin-right: 5px;
+	border: 3px solid #222222;
+	color: #222;
+}
+.social ul li a:hover {
+	color: #fff;
+	background: red;
+	border: 3px solid green;
+}
+.social ul li a i {
+	margin-top: 9px; /*ekhane margin-top 25% dileo hobe*/
+}
+.team-content {
+	padding: 50px 130px;
+}
+
+/*--------------Footer---------------*/
+.footer {
+	background: #222;
+	padding-top: 75px;
+	padding-bottom: 75px;
+	color: #fff;
+}
+.f-social {
+	float: right;
+}
+.f-social ul li a {
+	color: #fff;
+}
+.f-social ul li a.facebook {
+	background: #3b5998;
+	border: 3px solid #3b5998;
+}
+.f-social ul li a.twitter {
+	background: #00aced;
+	border: 3px solid #00aced;
+}
+.f-social ul li a.pinterest {
+	background: #cb2028;
+	border: 3px solid #cb2028;
+}
+.f-social ul li a.google-plus {
+	background: #da2713;
+	border: 3px solid #da2713;
+}
